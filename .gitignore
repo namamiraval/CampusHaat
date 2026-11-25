@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build files
+dist/
+**/dist/
+
+# Java / Maven build files
+target/
+**/target/
+
+# Uploaded user images (keep locally)
+uploads/*
+!uploads/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Uploaded images in any project folder
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Java compiled files
+*.class
+*.jar
+*.war
+
+# Backup archives
+*.zip
+
+# Private and excluded project documents
+Sem 5.pdf
+Business Proposal.docx
+campusloop-backend/JWT_token.txt
+campusloop-backend/mail.txt
+campusloop-backend/Cloud Deployment.docx
+
+# Microsoft Office temporary files
+~$*.docx
