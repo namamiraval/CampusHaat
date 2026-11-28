@@ -48,6 +48,7 @@ const CampusHaatLogo = ({ className = "h-10" }) => (
     className={className}
     aria-label="CampusHaat Logo"
   >
+  
     {/* Left Person Silhouette (Forest Green #1B4D2E) */}
     <circle cx="126" cy="24" r="11" fill="#1B4D2E" />
     <path
